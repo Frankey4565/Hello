@@ -92,3 +92,31 @@ print(float(num))	#integer -> float
 num = 10.25
 
 print(int(num))		#float -> integer
+print(7+2)
+print(2*2)
+print(5/2)
+print(2**9)		#2 to the power of 9th (dvě na druhou)
+print(10%3)		#remainder after 10 divided by 3 (zbytek)
+
+num_1 = 5
+num_2 = 2
+
+print(num_1 * num_2)
+
+num = "5"
+
+print(num * 3)			# 555
+print((int(num)) * 3)	# string -> integer
+
+#Lists
+
+names = ["John", "Bob", "Tina"]
+names[0] = "Henis"					# replaces John by Henis on 0 position
+names.append("DJ")					# add DJ to list
+names.append(69)
+
+print(names)
+print(names[0])
+print(names[3])
+print(names[4] * 5)
+print(names * 2)
