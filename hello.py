@@ -120,3 +120,14 @@ print(names[0])
 print(names[3])
 print(names[4] * 5)
 print(names * 2)
+
+nums = [1, 2, 3, 4, 5]
+other_name = "Hergot"
+names = ["Okamura", other_name, nums]
+
+print(names)
+print(names[2])
+print(names[2][2])		# 3rd item in 3rd item in list
+print(names[2][2] + 9)
+print(len(names))
+print(names[len(names) - 1])
