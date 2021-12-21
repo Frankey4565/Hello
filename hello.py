@@ -1,6 +1,14 @@
 # Learn Python Coding in 2021
 #############################
 
+#Working with (master)
+	#cd /c/pythonstuff
+
+#Saving changes on GitHub
+	#git add .
+	#git commit -am "Text"
+	#git push
+
 # Clear the terminal screen
 import os
 os.system('clear')
