@@ -142,6 +142,9 @@ print(names[0])
 tuple1 = ("John", "Bob", "Tina")
 tuple2 = ("Mery",)
 tuple3 = tuple1 + tuple2			# This way can be tuple changed
+tuple4 = tuple1[0:2]
 
 print(tuple1)
 print(tuple3)
+print(tuple1[0:2])
+print(tuple4)
