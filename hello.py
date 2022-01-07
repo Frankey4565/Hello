@@ -131,3 +131,17 @@ print(names[2][2])		# 3rd item in 3rd item in list
 print(names[2][2] + 9)
 print(len(names))
 print(names[len(names) - 1])
+
+#Tuples
+
+names = ("John", "Bob", "Tina")
+
+print(names)
+print(names[0])
+
+tuple1 = ("John", "Bob", "Tina")
+tuple2 = ("Mery",)
+tuple3 = tuple1 + tuple2			# This way can be tuple changed
+
+print(tuple1)
+print(tuple3)
