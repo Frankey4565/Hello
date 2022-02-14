@@ -148,3 +148,39 @@ print(tuple1)
 print(tuple3)
 print(tuple1[0:2])
 print(tuple4)
+
+#Dictionaries
+
+favorite_pizza = {
+	"John": "Pepperoni",
+	"Tim": "Sausage",
+	"Mary": "Cheese",
+}
+
+print(favorite_pizza)
+
+del favorite_pizza["John"]	#delete item in dictionary
+
+print(favorite_pizza)
+print(favorite_pizza["Tim"]) #shows what belongs to character
+
+favorite_pizza.update({"Tina": "Green Peppers"}) #update items
+print(favorite_pizza)
+
+favorite_pizza["Tina"] = "Avocado" #changes items assignment
+print(favorite_pizza)
+
+favorite_pizza["Tim"] = [1,2,3,4,5]
+print(favorite_pizza)
+print(favorite_pizza["Tim"])
+print(favorite_pizza["Tim"][4])
+
+#Assignment Operators
+
+num = 41
+num += 1 	#num + 1
+print(num)
+
+num = 41
+num -= 1 	#num - 1
+print(num)
